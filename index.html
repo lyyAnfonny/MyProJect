@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <title>ASOS</title>
+</head>
+<body>
+        <div class="popup2"></div>
+        <div class="popup3" style="z-index:3000!important; position: fixed;">
+                <div class="first">
+                        <ul>
+                                <li>PREFERENCES</li>
+                                <i class="fa-solid fa-xmark kvaeng" style="display: flex; align-items: center; cursor: pointer;"></i>
+                        </ul>
+                </div>
+                <div class="second">
+                        <ul>
+                                <li>SHOP IN:</li>
+                                <select>
+                                        <option>cambodia</option>
+                                        <option>cambodia</option>
+                                        <option>cambodia</option>
+                                        <option>cambodia</option>
+                                </select>
+                        </ul>
+                        <div class="curen">
+                                <ul>
+                                        <li><a href="#"><img src="img/social/visa2.webp" alt=""></a></li>
+                                        <li><a href="#"><img src="img/social/visa.webp" alt=""></a></li>
+                                        <li><a href="#"><img src="img/social/paypal.webp" alt=""></a></li>
+                                        <li><a href="#"><img src="img/social/mastercard.webp" alt=""></a></li>
+                                        <li><a href="#"><img src="img/social/american.webp" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="third">
+                        <ul>
+                                <li>CURRENCY</li>
+                                <select name="" id="">
+                                        <option value="">$ USD</option>
+                                        <option value="">៛ Riel</option>
+                                </select>
+                        </ul>
+                </div>
+                <ul class="forth">
+                        <li>UPDATE PREFERENCES</li>
+                </ul>
+        </div>
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-12 under-nav" style="z-index: 1900;">
+                                <ul>
+                                        <li><a href="#">Marketplace</a></li>
+                                        <li><a href="#">Help & FAXQs</a></li>
+                                        <li><img src="img/spiderman.png"  class="spider"></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+<div class="container-fluid px-0">
+        <div class="row " style="  --bs-gutter-x:none;">
+                <div class="col-12 px-0">
+                        <div class="nav-container" style="z-index: 1800;">
+                                <div class="logo">
+                                        <ul>
+                                                <i class="fa-solid fa-bars button-click" style="cursor: pointer;"></i>
+                                                <li><a href="#"><img src="img/logo.svg" alt=""></a></li>
+                                                <li><a href="#">WOMEN</a></li>
+                                                <li><a href="#">MEN</a></li>
+                                        </ul>
+                                </div>
+                                <div class="nav-menu">
+                                        <ul class="input-side">
+                                            <input type="text" id="txt-input" placeholder="search for items and brands ">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </ul>
+                                    <ul class="navbar-right">
+                                            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <!-- <div class="x-man">
+                                <i class="fa-sharp fa-solid fa-xmark"></i>
+                        </div> -->
+                        <div class="slide-left">
+                                <div class="x-man">
+                                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                                </div>
+                                <div class="main">
+                                        <ul>
+                                                <li><a href="#">WOMEN</a></li>
+                                                <li><a href="#">MEN</a></li>
+                                        </ul>
+                                </div>     
+                                <div class="inside">
+                                        <div class="image-txt" style="margin-top:15px;">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu.jpg" alt="">
+                                                                        <span>HOME</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu2.webp" alt="">
+                                                                        <span>25% OFF<br>EVERYTHING</span>
+                                                                        <span>WITH CODE:<br>TONG_ZIN</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu3.webp" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">SALE</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu4.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">NEW IN</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu5.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">CLOTHING</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu6.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">DRESSES</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu7.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">SHOES</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu8.webp" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">GIFTING</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu-9.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">SPORTWEARS</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu10.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">ACCESSARIES</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu11.webp" alt="">
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu12.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">FACE + BODY</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu13.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">BRANDS</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu14.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">OUTLET</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="content-txt">
+                                                        <span style="font-weight: 600;">DISCOVER MORE</span>
+                                        </div>
+                                        <div class="content-txt">
+                                                <ul>
+                                                        <li>
+                                                                <a href="#">
+                                                                        <img src="img/slide-menu-15.jpg" alt="">
+                                                                        <span style="top: 40px; left: 30px; font-weight: 500;">MARKETPLACE</span>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+
+                                        <div class="content-txt">
+                                                <ul style="display: flex;">
+                                                        <li>
+                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center;">
+                                                                        <img src="img/slide-menu16.webp" alt="" style="width: 134px; height: 100px;">
+                                                                        <h5 style="font-size: 13px; margin: 0 auto;">GIFT VOUCHERS</h5>
+                                                                </a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center;">
+                                                                        <img src="img/slide-menu17.webp" alt="" style="width: 134px; height: 100px;">
+                                                                        <h5 style="font-size: 13px; margin: 0 auto;">DOWLOAD THE APP</h5>
+                                                                </a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="TONG" style="height: 20vh;"></div>
+                                </div>      
+                        </div>
+                        <div class="drop-down">
+                                <div class="sig-in">
+                                        <div class="list-drop">
+                                                <ul>
+                                                        <li><a href="signin.html">Sign In</a></li>
+                                                        <li><span>|</span></li>
+                                                        <li><a href="join.html">Join</a></li>
+                                                </ul>
+                                                <ul>
+                                                        <li><a href="#"><i class="fa-sharp fa-solid fa-xmark"></i></a></li>
+                                                </ul>
+                                        </div>
+                                        <ul>
+                                                <li><a href="signin.html"><i class="fa-regular fa-user"></i> MyAccount</a></li>
+                                                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i> My Orders</a></li>
+                                                <li><a href="#"><i class="fa-regular fa-circle-question"></i>Returns Information</a></li>
+                                                <li><a href="#"><i class="fa-solid fa-message"></i>Contact Preferences</a></li>
+                                        </ul>
+                                </div>
+                </div>  
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-12 boss px-0">
+                        <div class="parent-menu">
+                                        <div class="bar-menu">
+                                                <ul>
+                                                        <li  value="0" ><a href="#">Sale</a></li>
+                                                        <li  value="1"><a href="#">New</a></li>
+                                                        <li  value="2"><a href="#">Clothing</a></li>
+                                                        <li  value="3"><a href="#">Dresses</a></li>
+                                                        <li  value="4"><a href="#">Shoes</a></li>
+                                                        <li  value="5"><a href="#">Gifting</a></li>
+                                                        <li  value="6"><a href="#">Sportswear</a></li>
+                                                        <li  value="7"><a href="#">Accessories</a></li>
+                                                        <li  value="8"><a href="#">Winter</a></li>
+                                                        <li  value="9"><a href="#">Topshop</a></li>
+                                                        <li  value="10"><a href="#">Face+Body</a></li>
+                                                        <li  value="11"><a href="#">Brand</a></li>
+                                                        <li  value="12"><a href="#">Outlet</a></li>
+                                                        <li  value="13"><a href="#">Marketplace</a></li>
+                                                </ul>
+                                        </div>
+                                        <div class="hover">
+                                                <div class="menu-hover">
+                                                        <div class="list-menu">
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>NEW PRODUCTS</span></li>
+                                                                                <li><a href="list.html">View all</a></li>
+                                                                                <li><a href="">SALE View all</a></li>
+                                                                                <li><a href="">SALE Dresses</a></li>
+                                                                                <li><a href="">SALE Tops</a></li>
+                                                                                <li><a href="">SALE Shoes</a></li>
+                                                                                <li><a href="">SALE Coats & Jackets</a></li>
+                                                                                <li><a href="">SALE Jumpers & Cardigans</a></li>
+                                                                                <li><a href="">SALE Trousers & Leggings</a></li>
+                                                                                <li><a href="">SALE Jeans</a></li>
+                                                                                <li><a href="">SALE Accessories</a></li>
+                                                                                <li><a href="">SALE Activewear</a></li>
+                                                                                <li><a href="">SALE Ankle Boobs</a></li>
+                                                                                <li><a href="">SALE Designer brands</a></li>
+                                                                                
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li style="visibility: hidden;"><span >NEW PRODUCTS</span></li>
+                                                                                <li><a href="list.html">View all</a></li>
+                                                                                <li><a href="">SALE View all</a></li>
+                                                                                <li><a href="">SALE Dresses</a></li>
+                                                                                <li><a href="">SALE Tops</a></li>
+                                                                                <li><a href="">SALE Shoes</a></li>
+                                                                                <li><a href="">SALE Coats & Jackets</a></li>
+                                                                                <li><a href="">SALE Jumpers & Cardigans</a></li>
+                                                                                <li><a href="">SALE Trousers & Leggings</a></li>
+                                                                                <li><a href="">SALE Jeans</a></li>
+                                                                                <li><a href="">SALE Accessories</a></li>
+                                                                                <li><a href="">SALE Activewear</a></li>
+                                                                                <li><a href="">SALE Ankle Boobs</a></li>
+                                                                                <li><a href="">SALE Designer brands</a></li>  
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span >SHOP BY EDIT</span></li>
+                                                                                <li><a href="list.html">Sale under 2500riel</a></li>
+                                                                                <li><a href="">Last chance to buy</a></li>
+                                                                                <li><a href="">Biggest deals</a></li>
+                                                                                <li><a href="">Sale: Winter essentials</a></li>
+                                                                                <li><a href="">Top saved</a></li>
+                                                                                <li><a href="">Dress under 10000riel</a></li>
+                                                                                <li><a href="">Jean under 5000riel</a></li>
+                                                                                <li><a href="">Sneakerbrans under 1000riel</a></li>
+                                                                                <li><a href="">Occasionwear under 1$</a></li>  
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>SHOP SALE BY BODY FIT</span></li>
+                                                                                <div class="radius-image">
+                                                                                        <ul>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious1.jpg" alt="">
+                                                                                                                        <span>Tall</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious2.webp" alt="">
+                                                                                                                        <span>Petite</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                        </ul>
+                                                                                        <ul>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious3.jpg" alt="">
+                                                                                                                        <span>Maternity</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious4.webp" alt="">
+                                                                                                                        <span>ASOS Classic</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                        </ul>
+                                                                                </div>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="menu-hover1">
+                                                        <div class="list-menu">
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>NEW PRODUCTS</span></li>
+                                                                                <li><a href="list.html">View all</a></li>
+                                                                                <li><a href="">Clothing</a></li>
+                                                                                <li><a href="">Shoes</a></li>
+                                                                                <li><a href="">Accessories</a></li>
+                                                                                <li><a href="">Face + Body</a></li>
+                                                                                <li><a href="#">Topshop</a></li>
+                                                                                <li><a href="#">Back to stock</a></li>
+                                                                                <li><a href="#">Outlet</a></li>
+                                                                                <li><a href="#">Trending now</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>SHOP BY BODY FIT</span></li>
+                                                                                <div class="radius-image">
+                                                                                        <ul>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious1.jpg" alt="">
+                                                                                                                        <span>Tall</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious2.webp" alt="">
+                                                                                                                        <span>Petite</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                        </ul>
+                                                                                        <ul>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious3.jpg" alt="">
+                                                                                                                        <span>Maternity</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                                <a href="#" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                                                                                                        <img src="img/radious4.webp" alt="">
+                                                                                                                        <span>ASOS Classic</span>
+                                                                                                                </a>
+                                                                                                        </li>
+                                                                                        </ul>
+                                                                                </div>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>NEW EDIT</span></li>
+                                                                                <li><a href=""><img src="img/menu-hover1.webp" alt=""></a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="menu">
+                                                                        <ul>
+                                                                                <li><span>V-9</span></li>
+                                                                                <li><a href=""><img src="img/menu-hover2.webp" alt=""></a></li>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-xl px-0" style="z-index: 0;">
+                        <div class="container-bar">
+                                <div class="sub-title">
+                                        <ul><li><a href="#"><center>UP TO 50% OFF HOLIDAY PARTY LOOKS! <br>COME GET THESE DEAL</center></a></li></ul>
+                                </div>
+                                <div class="sub-title">
+                                        <ul><li><a href="#"><center>BAG THOSE GIFTS IN TIME! <br> CHECK OUR LAST-CHANCE DATES NOW</center></a></li></ul>
+                                </div>
+                            </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-xl p-0">
+                        <div class="pano-container">
+                                <ul>
+                                        <li><a href="#"><center>UP TO 50 TO OFF <br> HOLIDAY PARTY LOOKS!</center></a></li>
+                                        <li><a href="#"><center>COME GET THESE DEALS</center></a></li>
+                                        <li><a href="#"><center>Limites time only. Selected stylees marked down as shown</center></a></li>
+                                </ul>
+                            </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class=" col-xl-12 px-0 pt-3 banner-image">
+                        <div class="card border-0">
+                                <img src="img/banner2.avif" alt="">
+                                <img src="img/responsive.avif" alt="">
+                                <div class="content-pano">
+                                        <ul>
+                                                <li><a href="#">Our midnight era</a></li>
+                                                <li class="mt-4"><a href="#">SHOP ASOS DESIGN</a></li>
+                                        </ul>
+
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div class="container">
+        <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 list-pano mt-3">
+                        <div class="card border-0 px-0">
+                                <img src="img/ima.avif" alt="" >
+                                <div class="list-content">
+                                        <ul>
+                                                <li><a href="#">ASOS LUXE</a></li>
+                                                <li><a href="#"><center>We're going out-out tonighttt</center></a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 list-pano mt-3">
+                        <div class="card border-0 px-0">
+                                <img src="img/image1-banner.avif" alt="" >
+                                <div class="list-content">
+                                        <ul>
+                                                <li><a href="#">ASOS LUXE</a></li>
+                                                <li><a href="#"><center>We're going out-out tonighttt</center></a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 list-pano mt-3">
+                        <div class="card border-0 px-0">
+                                <img src="img/image3-banner.avif" alt="" >
+                                <div class="list-content">
+                                        <ul>
+                                                <li><a href="#">ASOS LUXE</a></li>
+                                                <li><a href="#"><center>We're going out-out tonighttt</center></a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 list-pano mt-3">
+                        <div class="card border-0 px-0">
+                                <img src="img/image4-banner.avif" alt="" >
+                                <div class="list-content">
+                                        <ul>
+                                                <li><a href="#">ASOS LUXE</a></li>
+                                                <li><a href="#"><center>We're going out-out tonighttt</center></a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-xl-12 banner-bottom px-0">
+                                <div class="tong ">
+                                        <div class="content-pano2">
+                                                <ul>
+                                                        <li><a href="#"><center>GET GIFTING <br> It's never too early to start ticking 'em of the list..</center></a></li>
+                                                <li class="w-auto"><a href="#"><center>DISCOVER MORE</center></a></li>
+                                                </ul>
+                                                
+                                        </div>
+                                </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row" style="display: flex; justify-content: center;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  footer mt-3">
+                        <div class="card border-0 mx-0">
+                                <img src="img/under-banner1.avif" alt="">
+                                <div class="content-pano3">
+                                        <ul>
+                                                <li><a href="#">TOPSHOP</a></li>
+                                                <li><a href="#">Your entrance: made</a></li>
+                                        </ul>
+                                        <ul>
+                                                <li><a href="#">SHOP THE BRAND</a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 footer  mt-3">
+                        <div class="card border-0">
+                                <img src="img/under-banner2.avif" alt="">
+                                <div class="content-pano3">
+                                        <ul>
+                                                <li><a href="#"><center>ASOS WEEKEND COLLECTIVE</center></a></li>
+                                                <li><a href="#"><center>The perf Sunday 'fit</center></a></li>
+                                        </ul>
+                                        <ul>
+                                                <li><a href="#"><center>SHOP THE BRAND</center></a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+                
+                
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="trending d-flex justify-content-center" style="height: auto; padding: 12px 0px; font-size: 22px; font-weight: 600; margin-top: 10px;">
+                                <span>TRENDING BRANDS</span>
+                        </div>
+                </div>
+                
+        </div>        
+</div>
+<div class="container-fluid my-3">
+        <div class="row" style=" justify-content: center;">
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending brand3.avif" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending brand1.avif" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending brand2.avif" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending-brand.webp" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending-brand1.webp" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3  col-sm-6 col-6 branding ">
+                        <div class="branding-name">
+                                <ul>
+                                        <li><a href="#"><img src="img/trending-brand2.webp" alt=""></a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+      <div class="row">
+        <div class="social-media">
+                <div class="social-link">
+                        <ul>
+                                <li><a href="#"><img src="img/spiderman.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/spiderman.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/spiderman.png" alt=""></a></li>
+                               
+                        </ul>
+                </div>
+               <div class="social-link">
+                        <ul>
+                                <li><a href="#"><img src="img/social/visa2.webp" alt=""></a></li>
+                                <li><a href="#"><img src="img/social/visa.webp" alt=""></a></li>
+                                <li><a href="#"><img src="img/social/paypal.webp" alt=""></a></li>
+                                <li><a href="#"><img src="img/social/mastercard.webp" alt=""></a></li>
+                                <li><a href="#"><img src="img/social/american.webp" alt=""></a></li>
+                        </ul>
+                </div>
+        </div>
+      </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+               <div class="detail-info" style="padding: 20px;">
+                                <div class="detail">
+                                        <ul>
+                                                <li>HELP & INFORMATION</li>
+                                                <li><a href="#">Help</a></li>
+                                                <li><a href="#">Track order</a></li>
+                                                <li><a href="#">Delivery & returns</a></li>
+                                                <li><a href="#">Sitemap</a></li>
+                                        </ul>
+                                </div>
+                                <div class="detail">
+                                        <ul>
+                                                <li>ABOUT ASOS</li>
+                                                <li><a href="#">About us</a></li>
+                                                <li><a href="#">Carreer at ASOS</a></li>
+                                                <li><a href="#">Corporate responsibility</a></li>
+                                                <li><a href="#">Investors'site</a></li>
+                                        </ul>
+                                </div>
+                                <div class="detail">
+                                        <ul>
+                                                <li>MORE FROM ASOS</li>
+                                                <li><a href="#">Mobile and ASOS apps</a></li>
+                                                <li><a href="#">ASOS Marketplace</a></li>
+                                                <li><a href="#">Gift voucher</a></li>
+                                                <li><a href="#">Black Friday</a></li>
+                                                <li><a href="#">ASOS x Thrift+</a></li>
+                                        </ul>
+                                </div>
+                                <div class="detail">
+                                        <ul>
+                                                <li>SHOPPING FROM:</li>
+                                                <li><a href="#">You in <img src="img/spiderman.png" alt="" style="width: 20px; height: 20px;margin: 0 2px;"><span style="padding: 0px 6px; font-weight: bold; color: black;">| CHANGE</span></a></li>
+                                        </ul>
+                                </div>
+               </div>
+        </div>
+</div>
+<div class="container-fluid">
+        <div class="row">
+                <div class="last-detail">
+                        <ul>
+                                <li>@2022 ASOS</li>
+                               <div class="privacy">
+                                        <ul>
+                                                <li><a href="#">Privacy & Cookies</a></li>
+                                                <li><a href="#">Ts&Cs</a></li>
+                                                <li><a href="#">Accessibility</a></li>
+                                        </ul>
+                               </div>
+                        </ul>
+                </div>
+        </div>
+</div> 
+<script src="js/main.js"></script>   
+</body>
+</html>

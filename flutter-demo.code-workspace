@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "D:/demo/flutter-demo"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ASOS"
+	}
+}

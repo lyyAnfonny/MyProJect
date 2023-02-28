@@ -1,0 +1,324 @@
+.logo1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh !important;
+    }.logo1 img{
+        width: 93px;
+        height: 28px;
+    }
+    .main2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh!important;
+    }
+    .main2 .main3{
+        width:650px;
+        background-color: white;
+    }
+    .main2 .main3 .sig ul{
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        align-items: center;
+    }
+    .main2 .main3 .sig ul li{
+        padding: 22px 5px;
+        width: 50%;
+    }
+    .main2 .main3 .sig ul li:nth-child(1){
+        border-bottom: 2px solid rgb(59, 176, 223);
+    }
+    .main2 .main3 .sig ul li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main2 .main3 .sig ul li:nth-child(2) a{
+        color:black;
+        border-left: 2px solid rgba(102, 102, 102, 0.699);
+    }
+    .main2 .main3 .log{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 4vh;
+    }
+    .main2 .main3 .log .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .main2 .main3 .log .login label{
+        width: 60%;
+        margin: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #666;
+    }
+    .main2 .main3 .log .login input{
+        width: 60%;
+        height: 6vh;
+        outline: none;
+    }
+    .main2 .main3 .log .login ul{
+        /* display: flex;
+        flex-direction: column;
+        list-style-type: none; */
+        width: 60%;
+        margin-top: 3vh !important;
+        padding: 25px 0;
+        margin: 0;
+    }
+    .main2 .main3 .log .login ul li:nth-child(1){
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    .main2 .main3 .log .login ul li:nth-child(1) a{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .main2 .main3 .log .login ul li:nth-child(2){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+    }
+    .main2 .main3 .log .login ul li:nth-child(2) a{
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        transition: 0.7s;
+        padding: 5px;
+        margin: 5px;
+        height: 35px;
+    }
+    .main2 .main3 .log .login ul li:nth-child(2) a:hover{
+        color: rgba(0, 0, 0, 0.404);
+        border-bottom: 1px solid #666;
+    }
+    .main2 .main3 .or{
+        margin-top: 1vh!important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main2 .main3 .or h3{
+        padding: 12px 15px;
+        color: black;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    .main2 .main3 .social-media{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;
+    }
+    .main2 .main3 .social-media ul{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        list-style-type: none;
+    }
+    .main2 .main3 .social-media ul li{
+        width: 181px;
+        height: 54px;
+        padding:15px;
+        margin: 0 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 1px solid #666;
+    }
+    .main2 .main3 .social-media ul li a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    .main2 .main3 .social-media ul li a img{
+        height: 21px;
+        border-radius: 50%;
+        padding: 0 2px;
+    }
+    .main2 .main3 .social-media ul li a span{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .main2 .main3 .twit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin-top: 2vh;
+    }
+    .main2 .main3 .twit li{
+        align-items: center;
+        display: flex;
+    }
+    .main2 .main3 .twit li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    .last{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh!important;
+    }
+    .last ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        list-style-type: none;
+        letter-spacing: 1px;
+    }
+    .last ul span{
+        color: #666;
+    }
+    .last ul li{
+        padding: 0 5px;
+    }
+    .last ul li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 10px;
+        border-bottom: 1px solid gray;
+    }
+    .date-birth{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .date-birth .date{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .date-birth .date select{
+        margin: 0  8px;
+        padding: 9px;
+    }
+    .date-birth .date .date2{
+        padding: 0 20px;
+
+    }
+    .selected{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .selected .sele{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .selected .sele input{
+        margin-right:10px ;
+    }
+    .selected .sele span{
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .contact .contact1{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contact .contact1 .con1{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .contact1 .con1 span:nth-child(1){
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .contact .contact1 .con1 span:nth-child(2){
+        font-size: 11px;
+    }
+    .contact .contact1 .con2{
+        padding: 5px 12px;
+        background-color: rgba(165, 165, 165, 0.781);
+    }
+    .contact .contact1 .con2 span{
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+    }
+    .select-part{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+    .select-part .part{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    .select-part .part label{
+        position: absolute;
+        display: flex;
+        padding-left: 45px;
+        color: black !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        right: 6%;
+    }
+    .select-part .part input {
+        position: relative;
+        top: 0;
+        left: 66%;
+    }
+    
